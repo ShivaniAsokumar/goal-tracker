@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: none;
+	font-family: 'Rubik', sans-serif;
+	background-color: #393e46;
+}
+
+.flex-container {
+	display: flex;
+	display: inline-block;
+	flex-direction: column;
+	padding: 2rem;
+	background-color: #fdfbfb;
+	border-radius: 0.5rem;
+}
+
+.flex-item {
+	background: linear-gradient(128.44deg, #f1e2ff 16.15%, #d0e8ff 100.38%);
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}
